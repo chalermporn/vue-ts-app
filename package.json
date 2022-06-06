@@ -1,0 +1,21 @@
+{
+  "name": "vue-ts-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "path": "^0.12.7",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.37.0"
+  }
+}
